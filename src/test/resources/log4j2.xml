@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+ 
+  <!-- Define properties -->
+  <Properties>
+    <Property name="basePath">./logs</Property> <!-- ./ represents current project directory & then logs folder is specified where logs will be generated (Kind of a variable declaration "basePath" which is used in appender-->
+  </Properties>
+
+  <Appenders>  <!-- Appenders has entry for both console & file where we want to generate the logs  -->
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+     
+        <PatternLayout pattern ="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/> <!--  -->
+    </Console>
+
+    <!-- Rolling File Appender using properties -->
+    <RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">     <!--automation.log is the name of the log file which will be generated with a timestamp specified in filePattern-->
+       <PatternLayout Pattern="%d{HH:mm:ss.SSS} [%t] %-5level %loggger{36} - %msg%n"/>
+         <SizeBasedTriggeringPolicy size="10MB"/>
+         </RollingFile>
+
+
+  </Appenders>
+
+  <Loggers>
+    <!-- Root logger references the console and rolling appenders -->
+    <Root level="Info"><!--Here you can use multiple log levels All< Trace < Debug < Info < Warn < Error < Fatal < off -->
+      <AppenderRef ref="Console"/> 
+      <!--<AppenderRef ref="File"/> --><!-- In Loggers we have to specify  the level of log we need to generate e.g. warn , info etc . & Appender reference we need to specify either File or Console -->
+    </Root>
+  </Loggers>
+
+</Configuration>

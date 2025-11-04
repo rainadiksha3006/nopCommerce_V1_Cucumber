@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.TestRunner" time="300.358" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspaces\Sep2025\SeleniumCucumber\target\test-classes;C:\workspaces\Sep2025\SeleniumCucumber\target\classes;C:\Users\anura\.m2\repository\io\cucumber\cucumber-core\7.31.0\cucumber-core-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-gherkin\7.31.0\cucumber-gherkin-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.31.0\cucumber-gherkin-messages-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\anura\.m2\repository\io\cucumber\pretty-formatter\2.4.0\pretty-formatter-2.4.0.jar;C:\Users\anura\.m2\repository\io\cucumber\query\14.6.0\query-14.6.0.jar;C:\Users\anura\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\anura\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\anura\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\anura\.m2\repository\io\cucumber\tag-expressions\8.0.0\tag-expressions-8.0.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.0\cucumber-json-formatter-0.3.0.jar;C:\Users\anura\.m2\repository\io\cucumber\datatable\7.31.0\datatable-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-plugin\7.31.0\cucumber-plugin-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\docstring\7.31.0\docstring-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\html-formatter\22.0.0\html-formatter-22.0.0.jar;C:\Users\anura\.m2\repository\io\cucumber\junit-xml-formatter\0.10.0\junit-xml-formatter-0.10.0.jar;C:\Users\anura\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\anura\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\anura\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.14\jacoco-maven-plugin-0.8.14.jar;C:\Users\anura\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\anura\.m2\repository\org\apache\maven\shared\file-management\3.2.0\file-management-3.2.0.jar;C:\Users\anura\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\anura\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.agent\0.8.14\org.jacoco.agent-0.8.14-runtime.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.core\0.8.14\org.jacoco.core-0.8.14.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm\9.9\asm-9.9.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm-commons\9.9\asm-commons-9.9.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm-tree\9.9\asm-tree-9.9.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.report\0.8.14\org.jacoco.report-0.8.14.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-java\7.31.0\cucumber-java-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-junit\7.31.0\cucumber-junit-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\anura\.m2\repository\net\masterthought\cucumber-reporting\5.10.1\cucumber-reporting-5.10.1.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\anura\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\anura\.m2\repository\joda-time\joda-time\2.13.1\joda-time-2.13.1.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-configuration2\2.12.0\commons-configuration2-2.12.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\anura\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-text\1.14.0\commons-text-1.14.0.jar;C:\Users\anura\.m2\repository\org\jsoup\jsoup\1.20.1\jsoup-1.20.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\anura\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\anura\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;C:\Users\anura\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\anura\.m2\repository\io\cucumber\gherkin\36.0.0\gherkin-36.0.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\anura\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\anura\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\anura\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\anura\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\anura\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anura\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\anura\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\anura\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\anura\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anura\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anura\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\anura\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\anura\AppData\Local\Temp\surefire11491378522076440105\surefirebooter-20251104195443088_3.jar C:\Users\anura\AppData\Local\Temp\surefire11491378522076440105 2025-11-04T19-54-42_420-jvmRun1 surefire-20251104195443088_1tmp surefire_0-20251104195443088_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\workspaces\Sep2025\SeleniumCucumber\target\test-classes;C:\workspaces\Sep2025\SeleniumCucumber\target\classes;C:\Users\anura\.m2\repository\io\cucumber\cucumber-core\7.31.0\cucumber-core-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-gherkin\7.31.0\cucumber-gherkin-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.31.0\cucumber-gherkin-messages-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\anura\.m2\repository\io\cucumber\pretty-formatter\2.4.0\pretty-formatter-2.4.0.jar;C:\Users\anura\.m2\repository\io\cucumber\query\14.6.0\query-14.6.0.jar;C:\Users\anura\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\anura\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\anura\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\anura\.m2\repository\io\cucumber\tag-expressions\8.0.0\tag-expressions-8.0.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.0\cucumber-json-formatter-0.3.0.jar;C:\Users\anura\.m2\repository\io\cucumber\datatable\7.31.0\datatable-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-plugin\7.31.0\cucumber-plugin-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\docstring\7.31.0\docstring-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\html-formatter\22.0.0\html-formatter-22.0.0.jar;C:\Users\anura\.m2\repository\io\cucumber\junit-xml-formatter\0.10.0\junit-xml-formatter-0.10.0.jar;C:\Users\anura\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\anura\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\anura\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.14\jacoco-maven-plugin-0.8.14.jar;C:\Users\anura\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\anura\.m2\repository\org\apache\maven\shared\file-management\3.2.0\file-management-3.2.0.jar;C:\Users\anura\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\anura\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.agent\0.8.14\org.jacoco.agent-0.8.14-runtime.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.core\0.8.14\org.jacoco.core-0.8.14.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm\9.9\asm-9.9.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm-commons\9.9\asm-commons-9.9.jar;C:\Users\anura\.m2\repository\org\ow2\asm\asm-tree\9.9\asm-tree-9.9.jar;C:\Users\anura\.m2\repository\org\jacoco\org.jacoco.report\0.8.14\org.jacoco.report-0.8.14.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-java\7.31.0\cucumber-java-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-junit\7.31.0\cucumber-junit-7.31.0.jar;C:\Users\anura\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\anura\.m2\repository\net\masterthought\cucumber-reporting\5.10.1\cucumber-reporting-5.10.1.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\anura\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\anura\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\anura\.m2\repository\joda-time\joda-time\2.13.1\joda-time-2.13.1.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-configuration2\2.12.0\commons-configuration2-2.12.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\anura\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-text\1.14.0\commons-text-1.14.0.jar;C:\Users\anura\.m2\repository\org\jsoup\jsoup\1.20.1\jsoup-1.20.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\anura\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\anura\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\anura\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;C:\Users\anura\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\anura\.m2\repository\io\cucumber\gherkin\36.0.0\gherkin-36.0.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\anura\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\anura\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\anura\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\anura\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\anura\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anura\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\anura\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\anura\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\anura\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\anura\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\anura\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\anura\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anura\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anura\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\anura\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anura"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\workspaces\Sep2025\SeleniumCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\anura\AppData\Local\Temp\surefire11491378522076440105\surefirebooter-20251104195443088_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="anura"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\anura\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anura\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\workspaces\Sep2025\SeleniumCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.9.11/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Users\anura\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Add new Customer" classname="Customers" time="127.345">
+    <system-out><![CDATA[
+@sanity
+Scenario: Add new Customer                                                                  # ./Features/Customers.feature:13
+19:56:03.248 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                                        # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:56:03.401 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"                          # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:56:10.500 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin@yourstore.com" and Password as "admin"                  # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:56:12.165 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                                                # stepDefinitions.NopCommerceSteps.clickLogin()
+  ✔ Then User can view Dashboard                                                            # stepDefinitions.NopCommerceSteps.user_can_view_Dashboard()
+19:56:22.384 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu*****************
+  ✔ When User clicks on Customers Menu                                                      # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+19:56:25.829 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu item*****************
+  ✔ And click on customers menu item                                                        # stepDefinitions.NopCommerceSteps.click_on_customers_menu_item()
+19:56:32.347 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Add new button*****************
+  ✔ And click on Add new button                                                             # stepDefinitions.NopCommerceSteps.click_on_Add_new_button()
+  ✔ Then User can view Add new customer page                                                # stepDefinitions.NopCommerceSteps.user_can_view_add_new_customer_page()
+19:56:36.921 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Adding new customer information*****************
+  ✔ When User enter customer info                                                           # stepDefinitions.NopCommerceSteps.user_enter_customer_info()
+19:56:43.577 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Saving customer data*****************
+  ✔ And click on Save button                                                                # stepDefinitions.NopCommerceSteps.click_on_save_button()
+  ✔ Then User can view confirmation message "The new customer has been added successfully." # stepDefinitions.NopCommerceSteps.user_can_view_confirmation_message(java.lang.String)
+19:56:49.254 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Closing Browser*****************
+  ✔ And close browser                                                                       # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:56:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Search Customer by EmailID #1" classname="Customers" time="58.741">
+    <system-out><![CDATA[
+@regression
+Scenario: Search Customer by EmailID                                       # ./Features/Customers.feature:22
+19:57:11.511 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                       # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:57:11.518 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:57:15.383 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:57:17.431 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                               # stepDefinitions.NopCommerceSteps.clickLogin()
+  ✔ Then User can view Dashboard                                           # stepDefinitions.NopCommerceSteps.user_can_view_Dashboard()
+19:57:32.362 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu*****************
+  ✔ When User clicks on Customers Menu                                     # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+19:57:36.059 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu item*****************
+  ✔ And click on customers menu item                                       # stepDefinitions.NopCommerceSteps.click_on_customers_menu_item()
+19:57:46.316 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Searching existing customer using email id*****************
+  ✔ And Enter Customer email                                               # stepDefinitions.NopCommerceSteps.enter_customer_email()
+  ✔ And Click on search button                                             # stepDefinitions.NopCommerceSteps.click_on_search_button()
+steve_gates@nopCommerce.com
+  ✔ Then user should get email in the search table                         # stepDefinitions.NopCommerceSteps.user_should_get_email_in_the_search_table()
+19:57:52.774 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Closing Browser*****************
+  ✔ And close browser                                                      # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:57:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Search Customer by EmailID #2" classname="Customers" time="39.622">
+    <system-out><![CDATA[
+@regression
+Scenario: Search Customer by EmailID                                       # ./Features/Customers.feature:29
+19:58:04.726 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                       # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:58:04.732 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:58:07.809 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:58:09.757 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                               # stepDefinitions.NopCommerceSteps.clickLogin()
+  ✔ Then User can view Dashboard                                           # stepDefinitions.NopCommerceSteps.user_can_view_Dashboard()
+19:58:19.122 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu*****************
+  ✔ When User clicks on Customers Menu                                     # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+19:58:22.314 [main] INFO  stepDefinitions.NopCommerceSteps - *****************User clicks on Customers Menu item*****************
+  ✔ And click on customers menu item                                       # stepDefinitions.NopCommerceSteps.click_on_customers_menu_item()
+19:58:28.454 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Searching customer by name*****************
+  ✔ And Enter Customer FirstName                                           # stepDefinitions.NopCommerceSteps.enter_customer_firstname()
+  ✔ And Enter Customer LastName                                            # stepDefinitions.NopCommerceSteps.enter_customer_lastname()
+  ✔ And Click on search button                                             # stepDefinitions.NopCommerceSteps.click_on_search_button()
+  ✔ Then user should get name in the search table                          # stepDefinitions.NopCommerceSteps.user_should_get_name_in_the_search_table()
+19:58:34.956 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Closing Browser*****************
+  ✔ And close browser                                                      # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:58:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Successful Login with valid Credentials" classname="NopCommerce Login" time="29.353">
+    <system-out><![CDATA[
+@sanity
+Scenario: Successful Login with valid Credentials                          # ./Features/Login.feature:4
+19:58:41.223 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                       # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:58:41.235 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:58:45.685 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:58:47.117 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                               # stepDefinitions.NopCommerceSteps.clickLogin()
+19:58:55.204 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Login was successful*****************
+  ✔ Then Page Title should be "Dashboard / nopCommerce administration"     # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+19:58:55.217 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Click on logout link*****************
+  ✔ When User click on Log out link                                        # stepDefinitions.NopCommerceSteps.clickLogout()
+19:59:03.540 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Login was successful*****************
+  ✔ Then Page Title should be "nopCommerce demo store. Login"              # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+19:59:03.555 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Closing Browser*****************
+  ✔ And close browser                                                      # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:58:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #1" classname="NopCommerce Login" time="25.919">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                        # ./Features/Login.feature:27
+19:59:09.528 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                       # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:59:09.533 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:59:12.790 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:59:13.936 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                               # stepDefinitions.NopCommerceSteps.clickLogin()
+19:59:22.011 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Login was successful*****************
+  ✔ Then Page Title should be "Dashboard / nopCommerce administration"     # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+19:59:22.025 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Click on logout link*****************
+  ✔ When User click on Log out link                                        # stepDefinitions.NopCommerceSteps.clickLogout()
+19:59:30.057 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Login was successful*****************
+  ✔ Then Page Title should be "nopCommerce demo store. Login"              # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+19:59:30.295 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Closing Browser*****************
+  ✔ And close browser                                                      # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:59:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #2" classname="NopCommerce Login" time="15.789">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.NopCommerceSteps.verify_pagetitle(NopCommerceSteps.java:96)
+	at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/workspaces/Sep2025/SeleniumCucumber/./Features/Login.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                         # ./Features/Login.feature:28
+19:59:35.089 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching Browser*****************
+  ✔ Given User launch chrome browser                                        # stepDefinitions.NopCommerceSteps.launch_chrome_browser()
+19:59:35.092 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Launching URL*****************
+  ✔ When User opens URL "https://admin-demo.nopcommerce.com/login"          # stepDefinitions.NopCommerceSteps.user_opens_URL(java.lang.String)
+19:59:38.596 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Providing login details*****************
+  ✔ And User enters Email as "admin1@yourstore.com" and Password as "admin" # stepDefinitions.NopCommerceSteps.enterCredentials(java.lang.String,java.lang.String)
+19:59:39.707 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Started login*****************
+  ✔ And User Clicks on Login                                                # stepDefinitions.NopCommerceSteps.clickLogin()
+19:59:46.277 [main] INFO  stepDefinitions.NopCommerceSteps - *****************Login was unsuccessful*****************
+  ✘ Then Page Title should be "Dashboard / nopCommerce administration"      # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+        java.lang.AssertionError
+        	at org.junit.Assert.fail(Assert.java:86)
+        	at org.junit.Assert.assertTrue(Assert.java:41)
+        	at org.junit.Assert.assertTrue(Assert.java:52)
+        	at stepDefinitions.NopCommerceSteps.verify_pagetitle(NopCommerceSteps.java:96)
+        	at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/workspaces/Sep2025/SeleniumCucumber/./Features/Login.feature:20)
+  ↷ When User click on Log out link                                         # stepDefinitions.NopCommerceSteps.clickLogout()
+  ↷ Then Page Title should be "nopCommerce demo store. Login"               # stepDefinitions.NopCommerceSteps.verify_pagetitle(java.lang.String)
+  ↷ And close browser                                                       # stepDefinitions.NopCommerceSteps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 04, 2025 7:59:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+Nov 04, 2025 7:59:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+
+]]></system-err>
+  </testcase>
+</testsuite>
