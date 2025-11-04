@@ -91,7 +91,7 @@ public class NopCommerceSteps extends BaseClass{
 		Thread.sleep(3000);
 		if(driver.getPageSource().contains("Login was unsuccessful."))
 		{
-			logger.info("*****************Login was unsuccessful*****************");
+			logger.info("*****************Login was unsuccessful.*****************");
 			driver.close();
 			Assert.assertTrue(false);
 		}
